@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70392CAC1CE4030E009537DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70392CAB1CE4030E009537DF /* AppDelegate.swift */; };
+		70392CB01CE4030F009537DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70392CAF1CE4030F009537DF /* Assets.xcassets */; };
+		70392CBB1CE4030F009537DF /* TVML_Main_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70392CBA1CE4030F009537DF /* TVML_Main_SampleTests.swift */; };
+		70392CC61CE4030F009537DF /* TVML_Main_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70392CC51CE4030F009537DF /* TVML_Main_SampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70392CB71CE4030F009537DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70392CA01CE4030E009537DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70392CA71CE4030E009537DF;
+			remoteInfo = "TVML Main Sample";
+		};
+		70392CC21CE4030F009537DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70392CA01CE4030E009537DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70392CA71CE4030E009537DF;
+			remoteInfo = "TVML Main Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70392CA81CE4030E009537DF /* TVML Main Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVML Main Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70392CAB1CE4030E009537DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70392CAE1CE4030E009537DF /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		70392CAF1CE4030F009537DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70392CB11CE4030F009537DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70392CB61CE4030F009537DF /* TVML Main SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVML Main SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70392CBA1CE4030F009537DF /* TVML_Main_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVML_Main_SampleTests.swift; sourceTree = "<group>"; };
+		70392CBC1CE4030F009537DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70392CC11CE4030F009537DF /* TVML Main SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVML Main SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70392CC51CE4030F009537DF /* TVML_Main_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVML_Main_SampleUITests.swift; sourceTree = "<group>"; };
+		70392CC71CE4030F009537DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70392CA51CE4030E009537DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70392CB31CE4030F009537DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70392CBE1CE4030F009537DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70392C9F1CE4030E009537DF = {
+			isa = PBXGroup;
+			children = (
+				70392CAA1CE4030E009537DF /* TVML Main Sample */,
+				70392CB91CE4030F009537DF /* TVML Main SampleTests */,
+				70392CC41CE4030F009537DF /* TVML Main SampleUITests */,
+				70392CA91CE4030E009537DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70392CA91CE4030E009537DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70392CA81CE4030E009537DF /* TVML Main Sample.app */,
+				70392CB61CE4030F009537DF /* TVML Main SampleTests.xctest */,
+				70392CC11CE4030F009537DF /* TVML Main SampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70392CAA1CE4030E009537DF /* TVML Main Sample */ = {
+			isa = PBXGroup;
+			children = (
+				70392CAB1CE4030E009537DF /* AppDelegate.swift */,
+				70392CAF1CE4030F009537DF /* Assets.xcassets */,
+				70392CB11CE4030F009537DF /* Info.plist */,
+				70392CAD1CE4030E009537DF /* Supporting Files */,
+			);
+			path = "TVML Main Sample";
+			sourceTree = "<group>";
+		};
+		70392CAD1CE4030E009537DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70392CAE1CE4030E009537DF /* application.js */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70392CB91CE4030F009537DF /* TVML Main SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				70392CBA1CE4030F009537DF /* TVML_Main_SampleTests.swift */,
+				70392CBC1CE4030F009537DF /* Info.plist */,
+			);
+			path = "TVML Main SampleTests";
+			sourceTree = "<group>";
+		};
+		70392CC41CE4030F009537DF /* TVML Main SampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70392CC51CE4030F009537DF /* TVML_Main_SampleUITests.swift */,
+				70392CC71CE4030F009537DF /* Info.plist */,
+			);
+			path = "TVML Main SampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70392CA71CE4030E009537DF /* TVML Main Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70392CCA1CE4030F009537DF /* Build configuration list for PBXNativeTarget "TVML Main Sample" */;
+			buildPhases = (
+				70392CA41CE4030E009537DF /* Sources */,
+				70392CA51CE4030E009537DF /* Frameworks */,
+				70392CA61CE4030E009537DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TVML Main Sample";
+			productName = "TVML Main Sample";
+			productReference = 70392CA81CE4030E009537DF /* TVML Main Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70392CB51CE4030F009537DF /* TVML Main SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70392CCD1CE4030F009537DF /* Build configuration list for PBXNativeTarget "TVML Main SampleTests" */;
+			buildPhases = (
+				70392CB21CE4030F009537DF /* Sources */,
+				70392CB31CE4030F009537DF /* Frameworks */,
+				70392CB41CE4030F009537DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70392CB81CE4030F009537DF /* PBXTargetDependency */,
+			);
+			name = "TVML Main SampleTests";
+			productName = "TVML Main SampleTests";
+			productReference = 70392CB61CE4030F009537DF /* TVML Main SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70392CC01CE4030F009537DF /* TVML Main SampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70392CD01CE4030F009537DF /* Build configuration list for PBXNativeTarget "TVML Main SampleUITests" */;
+			buildPhases = (
+				70392CBD1CE4030F009537DF /* Sources */,
+				70392CBE1CE4030F009537DF /* Frameworks */,
+				70392CBF1CE4030F009537DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70392CC31CE4030F009537DF /* PBXTargetDependency */,
+			);
+			name = "TVML Main SampleUITests";
+			productName = "TVML Main SampleUITests";
+			productReference = 70392CC11CE4030F009537DF /* TVML Main SampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70392CA01CE4030E009537DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vithorio Polten";
+				TargetAttributes = {
+					70392CA71CE4030E009537DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FPZLBEF4A5;
+					};
+					70392CB51CE4030F009537DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FPZLBEF4A5;
+						TestTargetID = 70392CA71CE4030E009537DF;
+					};
+					70392CC01CE4030F009537DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FPZLBEF4A5;
+						TestTargetID = 70392CA71CE4030E009537DF;
+					};
+				};
+			};
+			buildConfigurationList = 70392CA31CE4030E009537DF /* Build configuration list for PBXProject "TVML Main Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70392C9F1CE4030E009537DF;
+			productRefGroup = 70392CA91CE4030E009537DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70392CA71CE4030E009537DF /* TVML Main Sample */,
+				70392CB51CE4030F009537DF /* TVML Main SampleTests */,
+				70392CC01CE4030F009537DF /* TVML Main SampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70392CA61CE4030E009537DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70392CB01CE4030F009537DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70392CB41CE4030F009537DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70392CBF1CE4030F009537DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70392CA41CE4030E009537DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70392CAC1CE4030E009537DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70392CB21CE4030F009537DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70392CBB1CE4030F009537DF /* TVML_Main_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70392CBD1CE4030F009537DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70392CC61CE4030F009537DF /* TVML_Main_SampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70392CB81CE4030F009537DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70392CA71CE4030E009537DF /* TVML Main Sample */;
+			targetProxy = 70392CB71CE4030F009537DF /* PBXContainerItemProxy */;
+		};
+		70392CC31CE4030F009537DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70392CA71CE4030E009537DF /* TVML Main Sample */;
+			targetProxy = 70392CC21CE4030F009537DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70392CC81CE4030F009537DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		70392CC91CE4030F009537DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70392CCB1CE4030F009537DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TVML Main Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.pucpr.bepid.TVML-Main-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70392CCC1CE4030F009537DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TVML Main Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.pucpr.bepid.TVML-Main-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70392CCE1CE4030F009537DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TVML Main SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.pucpr.bepid.TVML-Main-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVML Main Sample.app/TVML Main Sample";
+			};
+			name = Debug;
+		};
+		70392CCF1CE4030F009537DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TVML Main SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.pucpr.bepid.TVML-Main-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVML Main Sample.app/TVML Main Sample";
+			};
+			name = Release;
+		};
+		70392CD11CE4030F009537DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TVML Main SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.pucpr.bepid.TVML-Main-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TVML Main Sample";
+			};
+			name = Debug;
+		};
+		70392CD21CE4030F009537DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TVML Main SampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.pucpr.bepid.TVML-Main-SampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TVML Main Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70392CA31CE4030E009537DF /* Build configuration list for PBXProject "TVML Main Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70392CC81CE4030F009537DF /* Debug */,
+				70392CC91CE4030F009537DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70392CCA1CE4030F009537DF /* Build configuration list for PBXNativeTarget "TVML Main Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70392CCB1CE4030F009537DF /* Debug */,
+				70392CCC1CE4030F009537DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70392CCD1CE4030F009537DF /* Build configuration list for PBXNativeTarget "TVML Main SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70392CCE1CE4030F009537DF /* Debug */,
+				70392CCF1CE4030F009537DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70392CD01CE4030F009537DF /* Build configuration list for PBXNativeTarget "TVML Main SampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70392CD11CE4030F009537DF /* Debug */,
+				70392CD21CE4030F009537DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70392CA01CE4030E009537DF /* Project object */;
+}
