@@ -77,6 +77,34 @@ var createAlert = function(title, description) {
     return alertDoc
 }
 
+
+var docFromString = function(docString) {
+    var parser = new DOMParser();
+    var doc = parser.parseFromString(docString, "application/xml");
+    return doc
+}
+
+var creatForm = function() {
+    var formString = `<?xml version="1.0" encoding="UTF-8" ?>
+    <document>
+        <formTemplate>
+            <banner>
+                <description>Informe Dados</description>
+            </banner>
+            <textField id="text_here">Texto aqui</textField>
+            <footer>
+                <button>
+                    <text>Submit</text>
+                </button>
+            </footer>
+        </formTemplate>
+    </document>`
+    
+    var doc = docFromString(formString);
+    doc.addEventListener("select", formCallback, false);
+    return doc
+}
+
 var showMain = function() {
     var mainString = `<?xml version="1.0" encoding="UTF-8" ?>
     <document>
@@ -100,13 +128,11 @@ var showMain = function() {
     </mainTemplate>
     </document>`
     
-    var parser = new DOMParser();
+    var doc = docFromString(mainString)
     
-    var mainDoc = parser.parseFromString(mainString, "application/xml");
+    doc.addEventListener("select", menuCallback, false);
     
-    mainDoc.addEventListener("select", menuCallback, false);
-    
-    return mainDoc
+    return doc
 }
 
 var menuCallback = function(event) {
@@ -114,6 +140,16 @@ var menuCallback = function(event) {
     var identifier = ele.getAttribute("data-identifier")
     
     switch (identifier) {
+        case "sample_one":
+            var alert = createAlert("Hello World! This is " + identifier, "Welcome to tvOS");
+            navigationDocument.pushDocument(alert);
+            break;
+            
+        case "sample_two":
+            var form = creatForm();
+            navigationDocument.pushDocument(form);
+            break;
+            
         case "sample_three":
             var alert = createAlert("Sample Three! " + identifier, "Welcome to tvOS");
             navigationDocument.pushDocument(alert);
@@ -123,4 +159,15 @@ var menuCallback = function(event) {
             var alert = createAlert("Hello World! " + identifier, "Welcome to tvOS");
             navigationDocument.pushDocument(alert);
     }
+}
+
+
+var formCallback = function(event) {
+    var textField = getActiveDocument().getElementById("text_here")
+    var keyboard textField.getFeature('Keyboard');
+    
+    var value = keyboard.text;
+    
+    var alert = createAlert("Aehoo", "Campo: " + value);
+    navigationDocument.pushDocument(alert);
 }
