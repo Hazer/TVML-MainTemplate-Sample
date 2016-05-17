@@ -164,10 +164,11 @@ var menuCallback = function(event) {
 
 var formCallback = function(event) {
     var textField = getActiveDocument().getElementById("text_here")
-    var keyboard textField.getFeature('Keyboard');
+    var keyboard = textField.getFeature('Keyboard');
     
     var value = keyboard.text;
     
     var alert = createAlert("Aehoo", "Campo: " + value);
     navigationDocument.pushDocument(alert);
 }
+
